@@ -3,3 +3,4 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo     https://pkg.jenkins.io/rpm-stab
 yum install jenkins -y
 systemctl start jenkins
 systemctl status jenkins
+systemctl enable jenkins
