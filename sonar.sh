@@ -4,6 +4,7 @@ cd /opt/
 wget https://binaries.sonarsource.com/Distribution/sonarqube/sonarqube-26.10.0.133078.zip
 
 unzip sonarqube-26.10.0.13cd sonarqube-26.10.0.1330783078.zip
+// when your unziping the folder take the latest folder.
 yum install java-21-amazon-corretto -y
 useradd sonar
 chown sonar:sonar sonarqube-26.10.0.133078 -R
